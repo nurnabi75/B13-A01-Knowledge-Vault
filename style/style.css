@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*common css*/
+.btn {
+  background-color: #469165;
+  border: none;
+  padding: 16px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.font-open-sans {
+  font-family: 'Open Sans', sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+/*header section*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.menu {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+.menu a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/* Basic Reset */
+
+/* hero Section */
+.hero-section {
+  background: url(../assets/images/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+.badge {
+  background: #ffffff1a;
+  border: 1px solid #ffffff66;
+  padding: 6px 16px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #4ade80;
+  border-radius: 50%;
+  margin-right: 8px;
+  box-shadow: 0 0 10px #4ade80;
+}
+
+/* Heading */
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #48bb78; /* Green color from image */
+}
+
+/* Paragraph */
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #cbd5e0;
+  margin-bottom: 40px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* btn */
+.hero-btn {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.btn-primary {
+  background-color: #48bb78;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #38a169;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: white;
+  border: 1px solid #4a5568;
+}
+
+.btn-secondary:hover {
+  background-color: #ffffff1a;
+}
+.right-icon {
+  font-size: 12px;
+  margin-left: 10px;
+}
+.play-icon {
+  font-size: 12px;
+  margin-right: 10px;
+}
