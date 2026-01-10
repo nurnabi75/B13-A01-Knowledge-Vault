@@ -152,7 +152,7 @@ nav {
 /* note section Styling */
 .note {
   text-align: center;
-  margin: 50px;
+  margin-top: 50px;
 }
 .note h1 {
   font-size: 48px;
@@ -202,4 +202,111 @@ nav {
   justify-content: center;
   border-radius: 50%;
   margin-bottom: 24px;
+}
+
+.second-brain-section {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.brain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+/* --- Left Side: Image Styling --- */
+.brain-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --- Right Side: Text Styling  */
+.content-side {
+  flex: 1;
+  margin-top: 70px;
+}
+
+.sub-title {
+  color: #30b868;
+  font-weight: 700;
+  font-size: 14px;
+
+  display: block;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 30px;
+  color: #001931;
+  line-height: 1.1;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+p {
+  color: #627382;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+.feature-list {
+  list-style: none;
+}
+
+.feature-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+  color: #001931;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.feature-list i {
+  color: #10b981;
+  font-size: 22px;
+}
+
+/* --- Early Access Section --- */
+.early-access-section {
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.early-access-section .padding {
+  padding-bottom: 20px;
+}
+.cta-card {
+  width: 100%;
+  max-width: 1100px;
+  background-color: #f7f6f2;
+  border-radius: 24px;
+  padding: 80px 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.early-access-section h2 {
+  font-size: 42px;
+  font-weight: 800;
+  color: #001931;
+  margin-bottom: 15px;
+}
+
+.early-access-section p {
+  font-size: 16px;
+  color: #627382;
+  font-weight: 500;
 }
